@@ -9,7 +9,7 @@ def logi desc, &block
 end
 
 logi 'Empty beers on the wall' do 
-	'Drink'
+	'Drink less'
 	logi 'zen' do
 	'zen'
 	end
