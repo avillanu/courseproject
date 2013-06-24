@@ -1,0 +1,16 @@
+filename = 'playlist.txt'
+songs = Dir['F:/**/*.{mp3,ogg}']
+File.open filename, 'w' do |f|
+	songs.each do |name|
+	f.write name+"\n"
+end
+end
+#book example is below
+# using the shuffle method as defined above
+all_oggs = shuffle(Dir['**/*.ogg'])
+File.open 'playlist.m3u', 'w' do |f|
+all_oggs.each do |ogg|
+f.write ogg+"\n"
+end
+end
+puts 'Done!'

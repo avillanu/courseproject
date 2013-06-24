@@ -1,0 +1,3 @@
+def factorial num
+	final = num * factorial (num-1)
+	final

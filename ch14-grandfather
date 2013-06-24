@@ -1,0 +1,8 @@
+def grandfather, &block
+
+
+Time.new.hour
+
+do
+	puts 'DONG!'
+end

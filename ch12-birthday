@@ -1,0 +1,2 @@
+filename = 'birthday.txt'
+File.open, 'w'
