@@ -58,3 +58,6 @@ hash2 = {a: [1,2,3], b:"this is a string", c:4}
 #a is a has value which is an Array
 #array of hashes below
 hash3 = [{a:1, b:2}, {c:3,d:4}, {e:5,f:6}]
+puts 'EXERCISE 15'
+puts 'I like railsapi.com. Nice and clean layout, easy to remember domain. Can also be used for'
+puts 'rails in the future. '
